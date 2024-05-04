@@ -4,7 +4,6 @@ import datetime
 
 
 
-
 class ApiKeys:
     def __init__(self):
         self.maps_tiles_api_key = "AIzaSyA9wp-nm6AiiIRm3wMsXyUSQwmvTPr9yGU"
