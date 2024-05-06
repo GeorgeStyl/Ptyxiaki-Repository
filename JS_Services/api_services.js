@@ -56,7 +56,7 @@ app.use("*", (req, res) => {
     console.log("app procesing /")
     res.status(400).send("debug stop")
     res.end()
-})
+})  
 
 
 let tileCoords = latLngToTileCoords(40.7128, -74.0060, 8);
