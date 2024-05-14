@@ -16,3 +16,4 @@ qgs.initQgis()
 
 # Finally, exitQgis() is called to remove the
 # provider and layer registries from memory
+qgs.exitQgis()
