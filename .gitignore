@@ -3,3 +3,4 @@ request_log.txt
 QGIS3_Files/2010_accidents.csv.zip
 QGIS3_Files/.~lock.2010_accidents.csv#
 Python_Scripts/__pycache__/Google_APIs_Tools.cpython-310.pyc
+Python_Scripts/QGIS3_Scripts/output_test_data.csv
