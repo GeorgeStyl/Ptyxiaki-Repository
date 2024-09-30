@@ -11205,7 +11205,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
+      "": {
         "@id": "way/215607982",
         "highway": "primary",
         "int_name": "Kalavryton",
