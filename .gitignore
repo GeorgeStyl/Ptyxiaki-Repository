@@ -57,3 +57,12 @@ QGIS3_Files/Tripoli_Project/planet_22.3321,37.4894_22.4153,37.5327.osm.shp/plane
 Python_Scripts/ArkGIS_Scripts/APICredentials.txt
 Python_Scripts/tripoli_roads_map.html
 DataSets/fixedJson.zip
+DataSets/Karaiskaki_from_mongo.json
+DataSets/Plataion_from_mongo.json
+DataSets/Εrymanthoy_from_mongo.json
+DataSets/Πapparrigopoulou_from_mongo_2.json
+DataSets/Πapparrigopoulou_from_mongo.json
+DataSets/ΤasoySechioti_from_mongo.json
+Python_Scripts/output.geojson
+Python_Scripts/ARCGis/DB_Connector.ipynb
+Python_Scripts/ARKGis/DB_Connector.ipynb
