@@ -66,3 +66,4 @@ DataSets/ΤasoySechioti_from_mongo.json
 Python_Scripts/output.geojson
 Python_Scripts/ARCGis/DB_Connector.ipynb
 Python_Scripts/ARKGis/DB_Connector.ipynb
+Python_Scripts/ARKGis/OutputData/out_out_Plataion.json
