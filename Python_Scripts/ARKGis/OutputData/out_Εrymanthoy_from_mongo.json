@@ -1,0 +1,397 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3805822,
+          37.5142292
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3805822,
+          37.5142292
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3798199,
+          37.5145871
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3798199,
+          37.5145871
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.379784,
+          37.5146091
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.379784,
+          37.5146091
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3794866,
+          37.5148042
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3794866,
+          37.5148042
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3792588,
+          37.514999
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3792588,
+          37.514999
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3789687,
+          37.5153018
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3789687,
+          37.5153018
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3787194,
+          37.515562
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3787194,
+          37.515562
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3785844,
+          37.5157267
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3785844,
+          37.5157267
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3784282,
+          37.51594
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3784282,
+          37.51594
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3783866,
+          37.5159931
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3783866,
+          37.5159931
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3782075,
+          37.5162624
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3782075,
+          37.5162624
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3781109,
+          37.5164307
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3781109,
+          37.5164307
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3777462,
+          37.5170037
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3777462,
+          37.5170037
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3777054,
+          37.5170681
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3777054,
+          37.5170681
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy"
+      }
+    }
+  ]
+}

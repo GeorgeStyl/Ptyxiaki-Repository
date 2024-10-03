@@ -1,0 +1,677 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.384555,
+          37.5181112
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.384555,
+          37.5181112
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3844073,
+          37.5181848
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3844073,
+          37.5181848
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3838521,
+          37.5184609
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3838521,
+          37.5184609
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3836606,
+          37.5185552
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3836606,
+          37.5185552
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.383523,
+          37.5186194
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.383523,
+          37.5186194
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3831733,
+          37.5187731
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3831733,
+          37.5187731
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3830692,
+          37.5188204
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3830692,
+          37.5188204
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3829902,
+          37.5188629
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3829902,
+          37.5188629
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3829071,
+          37.5189201
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3829071,
+          37.5189201
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3826647,
+          37.5190935
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3826647,
+          37.5190935
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3826011,
+          37.5191378
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3826011,
+          37.5191378
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3825023,
+          37.5192088
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3825023,
+          37.5192088
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3825023,
+          37.5192088
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3825023,
+          37.5192088
+        ]
+      },
+      "properties": {
+        "@id": "way/782532938",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3824616,
+          37.5192539
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3824616,
+          37.5192539
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3824136,
+          37.5193101
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3824136,
+          37.5193101
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3823382,
+          37.5193954
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3823382,
+          37.5193954
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3821684,
+          37.5195972
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3821684,
+          37.5195972
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3820928,
+          37.5196915
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3820928,
+          37.5196915
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3820432,
+          37.5197314
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3820432,
+          37.5197314
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.381975,
+          37.5197702
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.381975,
+          37.5197702
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3818469,
+          37.5198327
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3818469,
+          37.5198327
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3815744,
+          37.5199664
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3815744,
+          37.5199664
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3809864,
+          37.5202278
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3809864,
+          37.5202278
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3803427,
+          37.5205226
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3803427,
+          37.5205226
+        ]
+      },
+      "properties": {
+        "@id": "way/153934648",
+        "int_name": "Plataion"
+      }
+    }
+  ]
+}

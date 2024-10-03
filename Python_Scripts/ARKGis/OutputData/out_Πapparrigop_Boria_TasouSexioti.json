@@ -1,0 +1,1550 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3759495,
+            37.5144197
+          ]
+        },
+        "properties": {
+          "@id": "way/376235914",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 12
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.375799,
+            37.5145268
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 13
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.375799,
+            37.5145268
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 14
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3756662,
+            37.5146023
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 15
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3756662,
+            37.5146023
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 16
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3754892,
+            37.5147108
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 17
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3754892,
+            37.5147108
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 18
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3752934,
+            37.5148108
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 19
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3752934,
+            37.5148108
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 20
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3751485,
+            37.5148746
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 21
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3751485,
+            37.5148746
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 22
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3750828,
+            37.5149044
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 23
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3750828,
+            37.5149044
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 24
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3750332,
+            37.5149257
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 25
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3750332,
+            37.5149257
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 26
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3749809,
+            37.5149427
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 27
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3749809,
+            37.5149427
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 28
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.374956,
+            37.5149497
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 29
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.374956,
+            37.5149497
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 30
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3749045,
+            37.514964
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 31
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3749045,
+            37.514964
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 32
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3749045,
+            37.514964
+          ]
+        },
+        "properties": {
+          "@id": "way/27414299",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 33
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3749045,
+            37.514964
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 34
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3748484,
+            37.51498
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 35
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3748484,
+            37.51498
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 36
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3747221,
+            37.5150161
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 37
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3747221,
+            37.5150161
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 38
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3745128,
+            37.5150661
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 39
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3745128,
+            37.5150661
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 40
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3742312,
+            37.5151363
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 41
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3742312,
+            37.5151363
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 42
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3739496,
+            37.5152129
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 43
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3739496,
+            37.5152129
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 44
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3737551,
+            37.5152629
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 45
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3737551,
+            37.5152629
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 46
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3734896,
+            37.5153278
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 47
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3734896,
+            37.5153278
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 48
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3731274,
+            37.5154197
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 49
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3731274,
+            37.5154197
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 50
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3729083,
+            37.51547
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 51
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3729083,
+            37.51547
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 52
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3727909,
+            37.515498
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 53
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3727909,
+            37.515498
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 54
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3727483,
+            37.5155084
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 55
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3727483,
+            37.5155084
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 56
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3725166,
+            37.5155825
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 57
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3725166,
+            37.5155825
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 58
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.372189,
+            37.5156969
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 59
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.372189,
+            37.5156969
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 60
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3720822,
+            37.5157332
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 61
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.3720822,
+            37.5157332
+          ]
+        },
+        "properties": {
+          "@id": "way/414023800",
+          "int_name": "\u03a0aparrigopoyloy",
+          "myindex": 62
+        }
+      },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372653,
+          37.5106978
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372653,
+          37.5106978
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372672,
+          37.5106994
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372672,
+          37.5106994
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729718,
+          37.5107168
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729718,
+          37.5107168
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3731221,
+          37.5107766
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3731221,
+          37.5107766
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3733111,
+          37.5109085
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3733111,
+          37.5109085
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3734281,
+          37.511023
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3734281,
+          37.511023
+        ]
+      },
+      "properties": {
+        "@id": "way/229507004",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3734281,
+          37.511023
+        ]
+      },
+      "properties": {
+        "@id": "way/371542670",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3734281,
+          37.511023
+        ]
+      },
+      "properties": {
+        "@id": "way/371542670",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3735596,
+          37.5111881
+        ]
+      },
+      "properties": {
+        "@id": "way/371542670",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3735596,
+          37.5111881
+        ]
+      },
+      "properties": {
+        "@id": "way/371542670",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3736762,
+          37.5113494
+        ]
+      },
+      "properties": {
+        "@id": "way/371542670",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3736762,
+          37.5113494
+        ]
+      },
+      "properties": {
+        "@id": "way/371542670",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3736762,
+          37.5113494
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3736762,
+          37.5113494
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3738384,
+          37.5115642
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3738384,
+          37.5115642
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3740886,
+          37.5119088
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3740886,
+          37.5119088
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3741094,
+          37.5119353
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3741094,
+          37.5119353
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3746011,
+          37.512563
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3746011,
+          37.512563
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3750117,
+          37.5131077
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3750117,
+          37.5131077
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3750117,
+          37.5131077
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3750117,
+          37.5131077
+        ]
+      },
+      "properties": {
+        "@id": "way/371542671",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3752865,
+          37.5134586
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3752865,
+          37.5134586
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3753491,
+          37.5135385
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3753491,
+          37.5135385
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3754192,
+          37.513628
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3754192,
+          37.513628
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3754192,
+          37.513628
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3754192,
+          37.513628
+        ]
+      },
+      "properties": {
+        "@id": "way/371542669",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3755395,
+          37.513791
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3755395,
+          37.513791
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3756568,
+          37.5139546
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3756568,
+          37.5139546
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3758519,
+          37.514245
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3758519,
+          37.514245
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759139,
+          37.5143596
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759139,
+          37.5143596
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759292,
+          37.5143878
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759292,
+          37.5143878
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759495,
+          37.5144197
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759495,
+          37.5144197
+        ]
+      },
+      "properties": {
+        "@id": "way/371542668",
+        "int_name": "\u03a4asoy \u03a3echioti",
+        "myindex": 52
+      }
+    }
+  ]
+}

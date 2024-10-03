@@ -1,0 +1,455 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3764795,
+                    37.5123228
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3764795,
+                    37.5123228
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3762614,
+                    37.5124347
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3762614,
+                    37.5124347
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3756979,
+                    37.5127239
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3756979,
+                    37.5127239
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.375241,
+                    37.5129601
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.375241,
+                    37.5129601
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3750117,
+                    37.5131077
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3750117,
+                    37.5131077
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3750117,
+                    37.5131077
+                ]
+            },
+            "properties": {
+                "@id": "way/378462454",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3750117,
+                    37.5131077
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 12
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3739773,
+                    37.5132534
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3739773,
+                    37.5132534
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3741034,
+                    37.5132789
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3741034,
+                    37.5132789
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3740544,
+                    37.5132882
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3740544,
+                    37.5132882
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 18
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3740017,
+                    37.5132981
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3740017,
+                    37.5132981
+                ]
+            },
+            "properties": {
+                "@id": "way/477908492",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3733728,
+                    37.5133698
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3733728,
+                    37.5133698
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 22
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.373161,
+                    37.5134109
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.373161,
+                    37.5134109
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3722732,
+                    37.5135726
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 25
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3722732,
+                    37.5135726
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 26
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3722236,
+                    37.5135813
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 27
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3722236,
+                    37.5135813
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3711343,
+                    37.5137837
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 29
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.3711343,
+                    37.5137837
+                ]
+            },
+            "properties": {
+                "@id": "way/102253581",
+                "int_name": "\u0394imitrakopoyloy",
+                "myindex": 30
+            }
+        }
+    ]
+}
