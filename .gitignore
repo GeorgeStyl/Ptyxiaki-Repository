@@ -95,3 +95,5 @@ Report/ThesisTemplate/thesis.pdf
 Report/ThesisTemplate/thesis.tex
 Report/ThesisTemplate/thesistemplate.kilepr
 Python_Scripts/Powerfleet_API.txt
+Python_Scripts/ARKGis/OutputData/out_kalavryton.json
+Python_Scripts/ARKGis/ARkGis_API/test_api.ipynb
