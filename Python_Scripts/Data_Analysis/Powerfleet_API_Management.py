@@ -61,7 +61,7 @@ class PowerfleetAPIManager:
             if response.status_code == 200:
                 print(Fore.GREEN + "Success: 200")
                 pretty_json = json.dumps(response.json(), indent=4)
-                # print(pretty_json)
+                print(pretty_json)
                 print(Style.RESET_ALL)
                 return response.json()
             else:
@@ -119,7 +119,7 @@ class DataBaseConnector:
 
 
 
-# print(os.getcwd())
+print(os.getcwd())
 
 
 
