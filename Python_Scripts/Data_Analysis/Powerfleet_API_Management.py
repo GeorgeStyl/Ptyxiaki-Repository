@@ -7,17 +7,20 @@ from colorama import Fore, Back, Style
 
 
 class PowerfleetAPIManager:
-    def __init__(self, rel_txt_path='./Powerfleet_API_CredentialsI.txt'):
-        self.CREDENTIALS_FILE_PATH = rel_txt_path
+    def __init__(self, start_date, end_date, rel_txt_path='./Powerfleet_API_CredentialsI.txt,', vehicleId=7):
+        self.CREDENTIALS_FILE_PATH  = rel_txt_path
+        self.START_DATE             = start_date
+        self.END_DATE               = end_date
+        self.VEHICLE_ID             = vehicleId
         
         self.URL = 'https://powerfleet.net/POWERFLEET5000/tr_rest/secure/vehicle/vehicle-gps-data'
         self.HEADERS = {
             'Content-Type': 'application/json'  # Authorization header will be added dynamically
         }
         self.DATA = {
-            "startDate": "2024-10-23 15:32:24",
-            "endDate": "2024-11-25 15:32:24",
-            "vehicleId": 7
+            "startDate": self.START_DATE,
+            "endDate": self.END_DATE,
+            "vehicleId": self.VEHICLE_ID
         }
 
     def get_values_from_file(self, *keys):
@@ -41,7 +44,6 @@ class PowerfleetAPIManager:
 
     def retrieve_response(self):
         """Fetches data from the API."""
-        # Get values from the credentials file
         values = self.get_values_from_file('cid', 'api_key')
         
         if values and values.get('cid') and values.get('api_key'):
@@ -117,10 +119,8 @@ class DataBaseConnector:
 
 
 
-print(os.getcwd())
+# print(os.getcwd())
 
-api_manager = PowerfleetAPIManager()
-response = api_manager.retrieve_response()
-print(response)  # Display the API response
+
 
 
