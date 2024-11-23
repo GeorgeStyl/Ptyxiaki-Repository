@@ -94,3 +94,11 @@ Report/ThesisTemplate/thesis.bib
 Report/ThesisTemplate/thesis.pdf
 Report/ThesisTemplate/thesis.tex
 Report/ThesisTemplate/thesistemplate.kilepr
+Python_Scripts/Powerfleet_API.txt
+Python_Scripts/ARKGis/OutputData/out_kalavryton.json
+Python_Scripts/ARKGis/ARkGis_API/test_api.ipynb
+Python_Scripts/Data_Analysis/Powerfleet_AP_CredentialsI.txt
+Python_Scripts/Data_Analysis/JSON_response.json
+Python_Scripts/Data_Analysis/Powerfleet_API_CredentialsI.txt
+Python_Scripts/Data_Analysis/response_data_set.csv
+Python_Scripts/Data_Analysis/__pycache__/Powerfleet_API_Management.cpython-39.pyc
