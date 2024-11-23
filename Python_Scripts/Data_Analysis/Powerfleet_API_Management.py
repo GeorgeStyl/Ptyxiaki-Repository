@@ -4,23 +4,26 @@ import os
 from pymongo import MongoClient, errors
 from bson import ObjectId
 from colorama import Fore, Back, Style
+import sys #* For printing caught exceptions
 
 
 class PowerfleetAPIManager:
-    def __init__(self, start_date, end_date, rel_txt_path='./Powerfleet_API_CredentialsI.txt,', vehicleId=7):
-        self.CREDENTIALS_FILE_PATH  = rel_txt_path
-        self.START_DATE             = start_date
-        self.END_DATE               = end_date
-        self.VEHICLE_ID             = vehicleId
+    def __init__(self, start_date, end_date, vehicleId=7, rel_txt_path='./Powerfleet_API_CredentialsI.txt'):
+        self.CREDENTIALS_FILE_PATH  = rel_txt_path  #* Credentials for API usage
+        self.START_DATE             = start_date    #* Starting date for API header 
+        self.END_DATE               = end_date      #* Ending date for API header
+        self.VEHICLE_ID             = vehicleId     #* vehicleId (if set to '-1' then fetch every vehicles)
+        self.REF_RATE               = 3.0           #* Refresh rate for fetching data from API
         
+        #* Contsruct API request
         self.URL = 'https://powerfleet.net/POWERFLEET5000/tr_rest/secure/vehicle/vehicle-gps-data'
         self.HEADERS = {
             'Content-Type': 'application/json'  # Authorization header will be added dynamically
         }
         self.DATA = {
-            "startDate": self.START_DATE,
-            "endDate": self.END_DATE,
-            "vehicleId": self.VEHICLE_ID
+            "startDate":    self.START_DATE,
+            "endDate":      self.END_DATE,
+            "vehicleId":    self.VEHICLE_ID
         }
 
     def get_values_from_file(self, *keys):
@@ -36,7 +39,7 @@ class PowerfleetAPIManager:
                         key, value = line.split(':', 1)
                         data[key.strip()] = value.strip()
         except FileNotFoundError:
-            print(f"Error: The file '{self.CREDENTIALS_FILE_PATH}' was not found.")
+            print(f"Error: The file '{self.CREDENTIALS_FILE_PATH}' was not found.", file=sys.stderr)
             return None
 
         result = {key: data.get(key) for key in keys}
@@ -65,13 +68,11 @@ class PowerfleetAPIManager:
                 print(Style.RESET_ALL)
                 return response.json()
             else:
-                print(Fore.RED + f"Failed with status code {response.status_code}:")
-                print(Fore.RED + response.text)
-                print(Style.RESET_ALL)
+                print(f"Failed with status code {response.status_code}:", file=sys.stderr)
+                print(response.text, file=sys.stderr)
                 return None
         else:
-            print(Fore.RED + "Error: Missing 'cid' or 'api_key' in the credentials file.")
-            print(Style.RESET_ALL)
+            print("Error: Missing 'cid' or 'api_key' in the credentials file.", file=sys.stderr)
             return None
 
     
