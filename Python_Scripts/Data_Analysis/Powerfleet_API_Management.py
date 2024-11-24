@@ -7,23 +7,19 @@ from colorama import Fore, Back, Style
 import sys #* For printing caught exceptions
 
 
-class PowerfleetAPIManager:
-    def __init__(self, start_date, end_date, vehicleId=7, rel_txt_path='./Powerfleet_API_CredentialsI.txt'):
+class LivePowerfleetAPIManager:
+    def __init__(self, plate="", rel_txt_path='./Powerfleet_API_Credentials.txt'):
         self.CREDENTIALS_FILE_PATH  = rel_txt_path  #* Credentials for API usage
-        self.START_DATE             = start_date    #* Starting date for API header 
-        self.END_DATE               = end_date      #* Ending date for API header
-        self.VEHICLE_ID             = vehicleId     #* vehicleId (if set to '-1' then fetch every vehicles)
+        self.PLATE                  = plate         #* plate if set to "" fetch every vehicle
         self.REF_RATE               = 3.0           #* Refresh rate for fetching data from API
         
         #* Contsruct API request
-        self.URL = 'https://powerfleet.net/POWERFLEET5000/tr_rest/secure/vehicle/vehicle-gps-data'
+        self.URL = 'https://powerfleet.net/POWERFLEET5000/tr_rest/secure/vehicle/gps-live-data?plate=' + self.PLATE
         self.HEADERS = {
             'Content-Type': 'application/json'  # Authorization header will be added dynamically
         }
         self.DATA = {
-            "startDate":    self.START_DATE,
-            "endDate":      self.END_DATE,
-            "vehicleId":    self.VEHICLE_ID
+            "plate": self.PLATE
         }
 
     def get_values_from_file(self, *keys):
@@ -55,11 +51,12 @@ class PowerfleetAPIManager:
             self.DATA['cid'] = values['cid']
 
             # Debugging: Print the headers and data
-            print(f"Headers: {self.HEADERS}")
-            print(f"Data: {self.DATA}")
+            print(Fore.YELLOW + f"Headers: {self.HEADERS}")
+            print(Fore.YELLOW + f"Data: {self.DATA}")
+            print(Style.RESET_ALL)
 
             # Make the API request
-            response = requests.post(self.URL, headers=self.HEADERS, json=self.DATA)
+            response = requests.get(self.URL, headers=self.HEADERS, json=self.DATA)
 
             if response.status_code == 200:
                 print(Fore.GREEN + "Success: 200")
@@ -75,8 +72,59 @@ class PowerfleetAPIManager:
             print("Error: Missing 'cid' or 'api_key' in the credentials file.", file=sys.stderr)
             return None
 
+
+class SnapshotPowerfleetAPIManager(LivePowerfleetAPIManager):
+    def __init__(self, starting_date, ending_date, vehicleId, rel_txt_path='./Powerfleet_API_Credentials.txt'):
+        # Call the parent constructor to initialize base attributes
+        super().__init__(rel_txt_path=rel_txt_path)
+
+        #* Store required parameters
+        self.STARTING_DATE  = starting_date
+        self.ENDING_DATE    = ending_date
+        self.VEHICLEID      = vehicleId
+
+        # Update URL and DATA based on the parameters
+        self.URL = 'https://powerfleet.net/POWERFLEET5000/tr_rest/secure/vehicle/vehicle-gps-data'
+        self.DATA.update({
+            "startDate": self.STARTING_DATE,
+            "endDate": self.ENDING_DATE,
+            "vehicleId": self.VEHICLEID
+        })
+
+    def retrieve_extended_response(self):
+        """Fetch extended data from the API."""
+        print(Fore.BLUE + "Using the Snapshot API manager..." + Style.RESET_ALL)
+
+        # Reuse the parent `retrieve_response` method
+        return self.retrieve_response()
+
+# Example usage
+if __name__ == "__main__":
+    # Parameters for snapshot data
+    starting_date = "2024-01-01 00:00:00"
+    ending_date = "2024-11-23 23:59:59"
+    vehicle_id = "7"
+
+    # Create an instance of SnapshotPowerfleetAPIManager
+    snapshot_manager = SnapshotPowerfleetAPIManager(starting_date, ending_date, vehicle_id)
+
+    # Print the constructed URL and DATA for debugging
+    print("Constructed URL:", snapshot_manager.URL)
+    print("Constructed DATA:", snapshot_manager.DATA)
+
+    # Call the retrieve_extended_response method to fetch data
+    snapshot_response = LivePowerfleetAPIManager()
+
+    # Output the result
+    if snapshot_response:
+        print("Snapshot data retrieved successfully!")
+        print(json.dumps(snapshot_response, indent=4))
+    else:
+        print("Failed to retrieve snapshot data.")
+
     
-class DataBaseConnector:
+    
+# class DataBaseConnector:
     def __init__(self, created_query):
         self.DB_NAME = "Ptyxiaki"
         self.COLLECTION_NAME = "Powerfleet GPS"
@@ -121,7 +169,5 @@ class DataBaseConnector:
 
 
 print(os.getcwd())
-
-
 
 
