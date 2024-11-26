@@ -103,3 +103,6 @@ Python_Scripts/Data_Analysis/Powerfleet_API_CredentialsI.txt
 Python_Scripts/Data_Analysis/response_data_set.csv
 Python_Scripts/Data_Analysis/__pycache__/Powerfleet_API_Management.cpython-39.pyc
 Python_Scripts/Data_Analysis/Powerfleet_API_Credentials.txt
+DataSetsLive_API_Response_data_set.json
+DataSets/Live_API_Response_data_set.json
+DataSets/Snapshot_API_Response_data_set.json

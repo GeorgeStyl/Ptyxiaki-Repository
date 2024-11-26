@@ -40,9 +40,19 @@ class LivePowerfleetAPIManager:
 
         result = {key: data.get(key) for key in keys}
         return result
+    
+    def write_response_to_file(self, response_data, output_file='Live_API_Response_data_set.json'):
+        """Writes the response data to a file."""
+        try:
+            with open('./DataSets/' + output_file, 'w') as file:
+                json.dump(response_data, file, indent=4)
+            print(Fore.GREEN + f"Response successfully written to {output_file}" + Style.RESET_ALL)
+        except IOError as e:
+            print(Fore.RED + f"Failed to write to file {output_file}: {e}" + Style.RESET_ALL)
+            
 
     def retrieve_response(self, http_method='get'):
-        """Fetches data from the API."""
+        """Fetches data from selected API."""
         values = self.get_values_from_file('cid', 'api_key')
         
         if values and values.get('cid') and values.get('api_key'):
@@ -60,7 +70,9 @@ class LivePowerfleetAPIManager:
                 response = requests.get(self.URL, headers=self.HEADERS, json=self.DATA)
             elif http_method == 'post':
                 response = requests.post(self.URL, headers=self.HEADERS, json=self.DATA)
-            else: exit(1) # wrong parameter
+            else: # wrong parameter
+                print(Fore.RED + f"Only POST | GET is allowed, not: {http_method}" + Style.RESET_ALL)
+                exit(1)
 
             if response.status_code == 200:
                 print(Fore.GREEN + "Success: 200")
@@ -79,7 +91,7 @@ class LivePowerfleetAPIManager:
 
 class SnapshotPowerfleetAPIManager(LivePowerfleetAPIManager):
     def __init__(self, starting_date, ending_date, vehicleId, rel_txt_path='./Python_Scripts/Data_Analysis/Powerfleet_API_Credentials.txt'):
-        # Call the parent constructor to initialize base attributes
+        #! Call the parent constructor to initialize base attributes
         super().__init__(rel_txt_path=rel_txt_path)
 
         #* Store required parameters
@@ -99,7 +111,22 @@ class SnapshotPowerfleetAPIManager(LivePowerfleetAPIManager):
         """Fetch extended data from the API."""
         print(Fore.BLUE + f"--------Using the Snapshot API manager-------- at::{os.getcwd()}" + Style.RESET_ALL)
         # Reuse the parent `retrieve_response` method
-        return self.retrieve_response('post') #! This API requires POST HTTP METHOD
+        response_data = self.retrieve_response('post') #! This API requires POST HTTP METHOD
+
+        # If response data is available, write to the designated file
+        if response_data:
+            self.write_response_to_file(response_data)
+
+        return response_data
+
+    def write_response_to_file(self, response_data, output_file='Snapshot_API_Response_data_set.json'):
+        """Writes the response data to a specific file for Snapshot API."""
+        try:
+            with open('./DataSets/' + output_file, 'w') as file:
+                json.dump(response_data, file, indent=4)
+            print(Fore.GREEN + f"Response successfully written to {output_file}" + Style.RESET_ALL)
+        except IOError as e:
+            print(Fore.RED + f"Failed to write to file {output_file}: {e}" + Style.RESET_ALL)
 
 # Example usage
 if __name__ == "__main__":
@@ -121,11 +148,28 @@ if __name__ == "__main__":
 
     if snapshot_response:
         print(Fore.GREEN + "Snapshot data retrieved successfully!" + Style.RESET_ALL)
-        print(json.dumps(snapshot_response, indent=4))  # Serialize the response data (not the object)
+        print(json.dumps(snapshot_response, indent=4))  
     else:
         print(Fore.RED + "Failed to retrieve snapshot data." + Style.RESET_ALL)
+    
+    plate_number = ""  
+    api_manager = LivePowerfleetAPIManager(plate=plate_number)
+
+    #! Retrieve the response using the GET method
+    response = api_manager.retrieve_response(http_method='get')
+    
+    if response:
+        print("API response received successfully!")
+        
+        # Write the response to a file
+        output_file_name = 'Live_API_Response_data_set.json'  # Specify the desired output file name
+        api_manager.write_response_to_file(response_data=response, output_file=output_file_name)
+    else:
+        print("Failed to retrieve the API response.")
 
 
+    
+    
     
     
 # class DataBaseConnector:
