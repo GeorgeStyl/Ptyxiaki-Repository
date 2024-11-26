@@ -8,7 +8,7 @@ import sys #* For printing caught exceptions
 
 
 class LivePowerfleetAPIManager:
-    def __init__(self, plate="", rel_txt_path='./Powerfleet_API_Credentials.txt'):
+    def __init__(self, plate="", rel_txt_path='./Python_Scripts/Data_Analysis/Powerfleet_API_Credentials.txt'):
         self.CREDENTIALS_FILE_PATH  = rel_txt_path  #* Credentials for API usage
         self.PLATE                  = plate         #* plate if set to "" fetch every vehicle
         self.REF_RATE               = 3.0           #* Refresh rate for fetching data from API
@@ -35,13 +35,13 @@ class LivePowerfleetAPIManager:
                         key, value = line.split(':', 1)
                         data[key.strip()] = value.strip()
         except FileNotFoundError:
-            print(f"Error: The file '{self.CREDENTIALS_FILE_PATH}' was not found.", file=sys.stderr)
+            print(Fore.RED + f"Error: The file '{self.CREDENTIALS_FILE_PATH}' was not found." + Style.RESET_ALL)
             return None
 
         result = {key: data.get(key) for key in keys}
         return result
 
-    def retrieve_response(self):
+    def retrieve_response(self, http_method='get'):
         """Fetches data from the API."""
         values = self.get_values_from_file('cid', 'api_key')
         
@@ -55,8 +55,12 @@ class LivePowerfleetAPIManager:
             print(Fore.YELLOW + f"Data: {self.DATA}")
             print(Style.RESET_ALL)
 
-            # Make the API request
-            response = requests.get(self.URL, headers=self.HEADERS, json=self.DATA)
+            #! Make the API request depending on HTTP Method
+            if http_method == 'get':
+                response = requests.get(self.URL, headers=self.HEADERS, json=self.DATA)
+            elif http_method == 'post':
+                response = requests.post(self.URL, headers=self.HEADERS, json=self.DATA)
+            else: exit(1) # wrong parameter
 
             if response.status_code == 200:
                 print(Fore.GREEN + "Success: 200")
@@ -65,16 +69,16 @@ class LivePowerfleetAPIManager:
                 print(Style.RESET_ALL)
                 return response.json()
             else:
-                print(f"Failed with status code {response.status_code}:", file=sys.stderr)
-                print(response.text, file=sys.stderr)
+                print(Fore.RED + f"Failed with status code {response.status_code}: \t at: {self.__class__.__name__}" + Style.RESET_ALL)
+                print(Fore.RED + response.text + Style.RESET_ALL)
                 return None
         else:
-            print("Error: Missing 'cid' or 'api_key' in the credentials file.", file=sys.stderr)
+            print(Fore.RED + f"Error at: {self.__class__.__name__} => Missing 'cid' or 'api_key' in the credentials file." + Style.RESET_ALL)
             return None
 
 
 class SnapshotPowerfleetAPIManager(LivePowerfleetAPIManager):
-    def __init__(self, starting_date, ending_date, vehicleId, rel_txt_path='./Powerfleet_API_Credentials.txt'):
+    def __init__(self, starting_date, ending_date, vehicleId, rel_txt_path='./Python_Scripts/Data_Analysis/Powerfleet_API_Credentials.txt'):
         # Call the parent constructor to initialize base attributes
         super().__init__(rel_txt_path=rel_txt_path)
 
@@ -93,10 +97,9 @@ class SnapshotPowerfleetAPIManager(LivePowerfleetAPIManager):
 
     def retrieve_extended_response(self):
         """Fetch extended data from the API."""
-        print(Fore.BLUE + "Using the Snapshot API manager..." + Style.RESET_ALL)
-
+        print(Fore.BLUE + f"--------Using the Snapshot API manager-------- at::{os.getcwd()}" + Style.RESET_ALL)
         # Reuse the parent `retrieve_response` method
-        return self.retrieve_response()
+        return self.retrieve_response('post') #! This API requires POST HTTP METHOD
 
 # Example usage
 if __name__ == "__main__":
@@ -105,22 +108,23 @@ if __name__ == "__main__":
     ending_date = "2024-11-23 23:59:59"
     vehicle_id = "7"
 
-    # Create an instance of SnapshotPowerfleetAPIManager
+    #* Create an instance for Snapshot Data
     snapshot_manager = SnapshotPowerfleetAPIManager(starting_date, ending_date, vehicle_id)
 
     # Print the constructed URL and DATA for debugging
     print("Constructed URL:", snapshot_manager.URL)
     print("Constructed DATA:", snapshot_manager.DATA)
 
-    # Call the retrieve_extended_response method to fetch data
-    snapshot_response = LivePowerfleetAPIManager()
+    #* Call the retrieve_extended_response method to fetch data
+    snapshot_response = snapshot_manager.retrieve_extended_response()
 
-    # Output the result
+
     if snapshot_response:
-        print("Snapshot data retrieved successfully!")
-        print(json.dumps(snapshot_response, indent=4))
+        print(Fore.GREEN + "Snapshot data retrieved successfully!" + Style.RESET_ALL)
+        print(json.dumps(snapshot_response, indent=4))  # Serialize the response data (not the object)
     else:
-        print("Failed to retrieve snapshot data.")
+        print(Fore.RED + "Failed to retrieve snapshot data." + Style.RESET_ALL)
+
 
     
     
@@ -168,6 +172,6 @@ if __name__ == "__main__":
 
 
 
-print(os.getcwd())
+
 
 
