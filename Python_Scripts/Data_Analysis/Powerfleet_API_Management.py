@@ -8,10 +8,12 @@ import sys #* For printing caught exceptions
 
 
 class LivePowerfleetAPIManager:
-    def __init__(self, plate="", rel_txt_path='./Python_Scripts/Data_Analysis/Powerfleet_API_Credentials.txt'):
+    def __init__(self, plate="", rel_txt_path='Powerfleet_API_Credentials.txt'):
         self.CREDENTIALS_FILE_PATH  = rel_txt_path  #* Credentials for API usage
         self.PLATE                  = plate         #* plate if set to "" fetch every vehicle
         self.REF_RATE               = 3.0           #* Refresh rate for fetching data from API
+        
+        
         
         #* Contsruct API request
         self.URL = 'https://powerfleet.net/POWERFLEET5000/tr_rest/secure/vehicle/gps-live-data?plate=' + self.PLATE
@@ -167,7 +169,7 @@ if __name__ == "__main__":
     else:
         print("Failed to retrieve the API response.")
 
-
+    print(os.getcwd())  
     
     
     
