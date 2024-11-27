@@ -28,19 +28,17 @@ class PowerFleetAPIsManager:
         URL = self.PARAMETERS_REQUEST["url"]
         HEADERS = {"Content-Type": "application/json", "Authorization": self.API_KEY}
 
-        # Prepare the request parameters
-        if self.PARAMETERS_REQUEST["plate"] == "": params = {"plate": ""}
-        else: params = {"plate": self.PARAMETERS_REQUEST["plate"]}
+        
+        if self.PARAMETERS_REQUEST["plate"] == "": PARAMS = {"plate": ""}
+        else: PARAMS = {"plate": self.PARAMETERS_REQUEST["plate"]}
         
         try:
-            # Make the GET request
-            response = requests.get(URL, headers=HEADERS)
+            response = requests.get(URL, headers=HEADERS, params=PARAMS)
             print(response)
             
             # Raise an exception for HTTP error responses (status codes 4xx and 5xx)
             response.raise_for_status()
-
-            # Try to parse the JSON response
+            
             try:
                 data = response.json()
                 print("API Request Successful!")
@@ -60,7 +58,47 @@ class PowerFleetAPIsManager:
                 
 
     
-    def get_snapshot_data(self):
+    def get_snapshot_data(self, vehicleId, startDate, endDate):
+        """
+        Get Snapshot data from the API using the provided parameters.
+        :param vehicleID: The target vehicle ID 
+        """
         print("It's Snapshot API")
+        
+        # Get URL and API Key from parameters
+        URL     = self.PARAMETERS_REQUEST["url"]
+        HEADERS = {"Content-Type": "application/json", "Authorization": self.API_KEY}
+        
+        # Define parameters as a dictionary
+        PARAMS  = {
+            "vehicleId": vehicleId,
+            "startDate": startDate,
+            "endDate": endDate
+        }
+        # postdata: { startDate: "2024-01-01 00:00:00",  endDate: "2024-11-25 16:30:00", vehicleId: 7 }
+        print("Request Body:", json.dumps(PARAMS, indent=4))
+        try:
+            # Make the GET request with the dictionary of parameters
+            response = requests.post(URL, headers=HEADERS, json=PARAMS)
+            print()
+            print(response)
+            
+            # Raise an exception for HTTP error responses (status codes 4xx and 5xx)
+            response.raise_for_status()
 
+            try:
+                # Attempt to parse the JSON response
+                data = response.json()
+                print("API Request Successful!")
+                print("Response:", data)
+            except ValueError:
+                print("Failed to parse JSON response.")
+                print("Response Text:", response.text)
 
+        except requests.exceptions.Timeout:
+            print("Request timed out. Please try again later.")
+        except requests.exceptions.TooManyRedirects:
+            print("Too many redirects. The URL might be incorrect.")
+        except requests.exceptions.RequestException as e:
+            # Catch any other request-related errors
+            print(f"An error occurred with the request: {e}")
