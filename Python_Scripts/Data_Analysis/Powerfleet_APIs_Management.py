@@ -7,11 +7,60 @@ from colorama import Fore, Back, Style
 import sys #* For printing caught exceptions
     
     
+import requests
 
+class PowerFleetAPIsManager:
+    def __init__(self, api_parameters):
+        """
+        Initialize the manager with specific API parameters.
+        :param api_parameters: The dictionary containing API parameters.
+        """
+        self.PARAMETERS_REQUEST = api_parameters  # it's a dictionary
+        self.CID = self.PARAMETERS_REQUEST["cid"]
+        self.API_KEY = self.PARAMETERS_REQUEST["api_key"]
 
+    def get_live_data(self):
+        """
+        Get live data from the API using the provided parameters.
+        """
+        print("It's Live API")
+        
+        URL = self.PARAMETERS_REQUEST["url"]
+        HEADERS = {"Content-Type": "application/json", "Authorization": self.API_KEY}
 
+        # Prepare the request parameters
+        if self.PARAMETERS_REQUEST["plate"] == "": params = {"plate": ""}
+        else: params = {"plate": self.PARAMETERS_REQUEST["plate"]}
+        
+        try:
+            # Make the GET request
+            response = requests.get(URL, headers=HEADERS)
+            print(response)
+            
+            # Raise an exception for HTTP error responses (status codes 4xx and 5xx)
+            response.raise_for_status()
 
+            # Try to parse the JSON response
+            try:
+                data = response.json()
+                print("API Request Successful!")
+                print("Response:", data)
+            except ValueError:
+                print("Failed to parse JSON response.")
+                print("Response Text:", response.text)
 
+        except requests.exceptions.Timeout:
+            print("Request timed out. Please try again later.")
+        except requests.exceptions.TooManyRedirects:
+            print("Too many redirects. The URL might be incorrect.")
+        except requests.exceptions.RequestException as e:
+            # Catch any other request-related errors
+            print(f"An error occurred with the request: {e}")
 
+                
+
+    
+    def get_snapshot_data(self):
+        print("It's Snapshot API")
 
 
