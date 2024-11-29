@@ -16,8 +16,8 @@ class PowerFleetAPIsManager:
         :param api_parameters: The dictionary containing API parameters.
         """
         self.PARAMETERS_REQUEST = api_parameters  # it's a dictionary
-        self.CID = self.PARAMETERS_REQUEST["cid"]
-        self.API_KEY = self.PARAMETERS_REQUEST["api_key"]
+        self.CID                = self.PARAMETERS_REQUEST["cid"]
+        self.API_KEY            = self.PARAMETERS_REQUEST["api_key"]
 
     def get_live_data(self):
         """
@@ -34,27 +34,32 @@ class PowerFleetAPIsManager:
         
         try:
             response = requests.get(URL, headers=HEADERS, params=PARAMS)
-            print(response)
+            # print(response)
             
             # Raise an exception for HTTP error responses (status codes 4xx and 5xx)
             response.raise_for_status()
             
             try:
-                data = response.json()
-                print("API Request Successful!")
-                print("Response:", data)
+                data    = response.json()
+                data    = json.dumps(data, indent=4)
+                print(Fore.GREEN + "API Request Successful!" + Style.RESET_ALL)
+                # print("Response:", data)
+                return data
             except ValueError:
-                print("Failed to parse JSON response.")
-                print("Response Text:", response.text)
+                print(Fore.RED + "Failed to parse JSON response.")
+                print("Response Text:", response.text + Style.RESET_ALL)
+                return None
 
         except requests.exceptions.Timeout:
-            print("Request timed out. Please try again later.")
+            print(Fore.RED + "Request timed out. Please try again later." + Style.RESET_ALL)
+            return None
         except requests.exceptions.TooManyRedirects:
-            print("Too many redirects. The URL might be incorrect.")
+            print(Fore.RED + "Too many redirects. The URL might be incorrect." + Style.RESET_ALL)
+            return None
         except requests.exceptions.RequestException as e:
             # Catch any other request-related errors
-            print(f"An error occurred with the request: {e}")
-
+            print(Fore.RED + f"An error occurred with the request: {e}" + Style.RESET_ALL)
+            return None
                 
 
     
@@ -71,9 +76,9 @@ class PowerFleetAPIsManager:
         
         # Define parameters as a dictionary
         PARAMS  = {
-            "vehicleId": vehicleId,
-            "startDate": startDate,
-            "endDate": endDate
+            "vehicleId":    vehicleId,
+            "startDate":    startDate,
+            "endDate":      endDate
         }
         # postdata: { startDate: "2024-01-01 00:00:00",  endDate: "2024-11-25 16:30:00", vehicleId: 7 }
         print("Request Body:", json.dumps(PARAMS, indent=4))
@@ -88,17 +93,22 @@ class PowerFleetAPIsManager:
 
             try:
                 # Attempt to parse the JSON response
-                data = response.json()
+                data    = response.json()
+                data    = json.dumps(data, indent=4)
                 print("API Request Successful!")
-                print("Response:", data)
+                return data
             except ValueError:
-                print("Failed to parse JSON response.")
-                print("Response Text:", response.text)
+                print(Fore.RED + "Failed to parse JSON response." + Style.RESET_ALL)
+                print(Fore.RED + "Response Text:", response.text + Style.RESET_ALL)
+                return None
 
         except requests.exceptions.Timeout:
-            print("Request timed out. Please try again later.")
+            print(Fore.RED + "Request timed out. Please try again later." + Style.RESET_ALL)
+            return None
         except requests.exceptions.TooManyRedirects:
-            print("Too many redirects. The URL might be incorrect.")
+            print(Fore.RED + "Too many redirects. The URL might be incorrect." + Style.RESET_ALL)
+            return None
         except requests.exceptions.RequestException as e:
             # Catch any other request-related errors
-            print(f"An error occurred with the request: {e}")
+            print(Fore.RED + f"An error occurred with the request: {e}" + Style.RESET_ALL)
+            return None

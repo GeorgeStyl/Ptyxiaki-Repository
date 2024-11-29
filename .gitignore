@@ -108,3 +108,6 @@ DataSets/Live_API_Response_data_set.json
 DataSets/Snapshot_API_Response_data_set.json
 Python_Scripts/Data_Analysis/Snapshot_API_Response_data_set.json
 Python_Scripts/Data_Analysis/PARAMETERS.json
+DataSets/Live_API_DataSets.csv
+DataSets/Live_API_DataSets.json
+DataSets/Snapshot_API_Response_data_set.csv
