@@ -5,9 +5,7 @@ from pymongo import MongoClient, errors
 from bson import ObjectId
 from colorama import Fore, Back, Style
 import sys #* For printing caught exceptions
-    
-    
-import requests
+
 
 class PowerFleetAPIsManager:
     def __init__(self, api_parameters):
@@ -112,3 +110,26 @@ class PowerFleetAPIsManager:
             # Catch any other request-related errors
             print(Fore.RED + f"An error occurred with the request: {e}" + Style.RESET_ALL)
             return None
+
+
+
+class MongoDBConnector:
+    def __init__(self, mongoclient="mongodb://localhost:27017/", client="Ptyxiaki", mycollection="Powerfleet GPS"):
+        self.MONGOCLIENT    = mongoclient
+        self.CLIENT         = client
+        self.MYCOLLECTION   = mycollection
+    
+    def check_connection(self):
+        try:
+            # Attempt to connect to the MongoDB server
+            client = MongoClient(self.MONGOCLIENT, serverSelectionTimeoutMS=5000)  # Timeout after 5 seconds
+            # Attempt to ping the server
+            client.server_info()  # This will raise an exception if the server is not reachable
+            print(Fore.GREEN + "Connection to MongoDB is successful!" + Style.RESET_ALL)
+            return True
+        except errors.ServerSelectionTimeoutError as e:
+            print(Fore.RED + f"Could not connect to MongoDB: {e}" + Style.RESET_ALL)
+            return False
+
+    def send_aggregation(self, json_file):
+        pass
