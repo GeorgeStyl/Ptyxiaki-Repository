@@ -21,7 +21,7 @@ class PowerFleetAPIsManager:
         """
         Get live data from the API using the provided parameters.
         """
-        print("It's Live API")
+        print("**Live API**")
         
         URL = self.PARAMETERS_REQUEST["url"]
         HEADERS = {"Content-Type": "application/json", "Authorization": self.API_KEY}
@@ -40,7 +40,7 @@ class PowerFleetAPIsManager:
             try:
                 data    = response.json()
                 data    = json.dumps(data, indent=4)
-                print(Fore.GREEN + "API Request Successful!" + Style.RESET_ALL)
+                print(Fore.GREEN + "Live API Request Successful!" + Style.RESET_ALL)
                 # print("Response:", data)
                 return data
             except ValueError:
@@ -66,7 +66,7 @@ class PowerFleetAPIsManager:
         Get Snapshot data from the API using the provided parameters.
         :param vehicleID: The target vehicle ID 
         """
-        print("It's Snapshot API")
+        print("**Snapshot API**")
         
         # Get URL and API Key from parameters
         URL     = self.PARAMETERS_REQUEST["url"]
@@ -79,12 +79,12 @@ class PowerFleetAPIsManager:
             "endDate":      endDate
         }
         # postdata: { startDate: "2024-01-01 00:00:00",  endDate: "2024-11-25 16:30:00", vehicleId: 7 }
-        print("Request Body:", json.dumps(PARAMS, indent=4))
+        # print("Request Body:", json.dumps(PARAMS, indent=4))
         try:
             # Make the GET request with the dictionary of parameters
             response = requests.post(URL, headers=HEADERS, json=PARAMS)
-            print()
-            print(response)
+            # print()
+            # print(response)
             
             # Raise an exception for HTTP error responses (status codes 4xx and 5xx)
             response.raise_for_status()
@@ -93,7 +93,7 @@ class PowerFleetAPIsManager:
                 # Attempt to parse the JSON response
                 data    = response.json()
                 data    = json.dumps(data, indent=4)
-                print("API Request Successful!")
+                print(Fore.GREEN + "Snapshot API Request Successful!" + Style.RESET_ALL)
                 return data
             except ValueError:
                 print(Fore.RED + "Failed to parse JSON response." + Style.RESET_ALL)
