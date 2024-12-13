@@ -115,21 +115,33 @@ class PowerFleetAPIsManager:
 
 class MongoDBConnector:
     def __init__(self, mongoclient="mongodb://localhost:27017/", client="Ptyxiaki", mycollection="Powerfleet GPS"):
-        self.MONGOCLIENT    = mongoclient
-        self.CLIENT         = client
-        self.MYCOLLECTION   = mycollection
-    
+        self.client = MongoClient(mongoclient)
+        self.database = self.client[client]
+        self.collection = self.database[mycollection]
+
     def check_connection(self):
         try:
-            # Attempt to connect to the MongoDB server
-            client = MongoClient(self.MONGOCLIENT, serverSelectionTimeoutMS=5000)  # Timeout after 5 seconds
-            # Attempt to ping the server
-            client.server_info()  # This will raise an exception if the server is not reachable
-            print(Fore.GREEN + "Connection to MongoDB is successful!" + Style.RESET_ALL)
+            self.client.server_info()  # Test connection
+            print("Connection to MongoDB is successful!")
             return True
         except errors.ServerSelectionTimeoutError as e:
-            print(Fore.RED + f"Could not connect to MongoDB: {e}" + Style.RESET_ALL)
+            print(f"Could not connect to MongoDB: {e}")
             return False
 
-    def send_aggregation(self, json_file):
-        pass
+    def upsert_vehicle_data(self, vehicle_data_list):
+        """
+        Inserts or updates documents in the MongoDB collection based on `vehicleId`.
+
+        Parameters:
+            vehicle_data_list (list): List of dictionaries containing vehicle information.
+
+        Returns:
+            None
+        """
+        for vehicle_data in vehicle_data_list:
+            self.collection.update_one(
+                {"vehicleId": vehicle_data["vehicleId"]},  # Query to match `vehicleId`
+                {"$set": vehicle_data},                    # Fields to update or set
+                upsert=True                                # Insert if no match is found
+            )
+            print(f"Upserted document for vehicleId {vehicle_data['vehicleId']}.")
