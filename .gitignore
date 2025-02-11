@@ -141,3 +141,15 @@ DataSets/API_Responses/Vehicle_Data/Vehicle_17_response.csv
 DataSets/API_Responses/Vehicle_Data/Vehicle_18_response.csv
 DataSets/API_Responses/Vehicle_Data/Vehicle_19_response.csv
 DataSets/API_Responses/Vehicle_Data/Vehicle_20_response.csv
+DataSets/API_Responses/Vehicle_Data/all_vehicle_responses.csv
+DataSets/API_Responses/Vehicle_Data/tmp_rows_to_plot.csv
+DataSets/API_Responses/Vehicle_Data/tmp_trips_csv.csv
+DataSets/API_Responses/Vehicle_Data/Vehicle_1_response.csv
+DataSets/API_Responses/Vehicle_Data/Vehicle_7_response.csv
+DataSets/API_Responses/Vehicle_Data/Vehicle_8_response.csv
+DataSets/API_Responses/Vehicle_Data/Vehicle_9_response.csv
+DataSets/API_Responses/Vehicle_Data/Vehicle_15_response.csv
+DataSets/API_Responses/Vehicle_Data/vehicle_data_plot.png
+Python_Scripts/Data_Analysis/output.csv
+Python_Scripts/Data_Analysis/single_data_analysis.ipynb
+Python_Scripts/Data_Analysis/Plots/vehicle_line_counts.png
