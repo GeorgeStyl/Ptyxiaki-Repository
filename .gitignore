@@ -154,3 +154,6 @@ Python_Scripts/Data_Analysis/output.csv
 Python_Scripts/Data_Analysis/single_data_analysis.ipynb
 Python_Scripts/Data_Analysis/Plots/vehicle_line_counts.png
 Python_Scripts/ARKGis/GeoJson.json
+DataSets/API_Responses/OSM/named_streets.csv
+DataSets/GeoJSON/Αγίου_Γεωργίου.geojson
+.gitignore
