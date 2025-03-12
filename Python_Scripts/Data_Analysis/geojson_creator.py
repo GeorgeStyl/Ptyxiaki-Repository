@@ -1,5 +1,7 @@
 import json
 import os
+from colorama import Fore, Style
+
 
 class GeoJSONCreator:
     """Base class for creating and saving GeoJSON files."""
@@ -9,7 +11,7 @@ class GeoJSONCreator:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(geojson_data, f, ensure_ascii=False, indent=4)
-        print(f"GeoJSON data saved to {file_path}")
+        print(Fore.GREEN + f"GeoJSON data saved to {file_path}" + Style.RESET_ALL)
 
 class VehicleGeoJSONCreator(GeoJSONCreator):
     """Creates GeoJSON for vehicle tracking data."""
