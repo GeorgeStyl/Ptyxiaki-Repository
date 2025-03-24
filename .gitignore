@@ -175,3 +175,4 @@ Python_Scripts/Data_Analysis/Plots/vehicle_rows_per_id.png
 Python_Scripts/Data_Analysis/Plots/velocities_on_coordinates_scatter_filtered.png
 Python_Scripts/Data_Analysis/Plots/velocities_on_coordinates_scatter.png
 Python_Scripts/Data_Analysis/Plots/velocity_density_kde_plot.png
+Python_Scripts/Data_Analysis/all_vehicle_responses_with_projections.csv
