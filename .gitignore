@@ -176,3 +176,4 @@ Python_Scripts/Data_Analysis/Plots/velocities_on_coordinates_scatter_filtered.pn
 Python_Scripts/Data_Analysis/Plots/velocities_on_coordinates_scatter.png
 Python_Scripts/Data_Analysis/Plots/velocity_density_kde_plot.png
 Python_Scripts/Data_Analysis/all_vehicle_responses_with_projections.csv
+Python_Scripts/Data_Analysis/Plots/rate_of_data_logging.png
