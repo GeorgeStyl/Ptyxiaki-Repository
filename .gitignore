@@ -177,3 +177,7 @@ Python_Scripts/Data_Analysis/Plots/velocities_on_coordinates_scatter.png
 Python_Scripts/Data_Analysis/Plots/velocity_density_kde_plot.png
 Python_Scripts/Data_Analysis/all_vehicle_responses_with_projections.csv
 Python_Scripts/Data_Analysis/Plots/rate_of_data_logging.png
+Python_Scripts/Data_Analysis/local_map.png
+Python_Scripts/Data_Analysis/visualize_dangers.csv
+Python_Scripts/Data_Analysis/Plots/bearings_vs_seconds_diff.png
+Python_Scripts/Data_Analysis/Plots/Scatter_bearings_vs_seconds_diff.png
