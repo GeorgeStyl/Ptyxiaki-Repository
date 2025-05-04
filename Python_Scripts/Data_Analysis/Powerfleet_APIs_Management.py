@@ -66,7 +66,7 @@ class PowerFleetAPIsManager:
         Get Snapshot data from the API using the provided parameters.
         :param vehicleID: The target vehicle ID 
         """
-        print("**Snapshot API**")
+        print(Fore.YELLOW + "**Snapshot API**" + Style.RESET_ALL)
         
         # Get URL and API Key from parameters
         URL     = self.PARAMETERS_REQUEST["url"]
@@ -112,36 +112,3 @@ class PowerFleetAPIsManager:
             return None
 
 
-
-class MongoDBConnector:
-    def __init__(self, mongoclient="mongodb://localhost:27017/", client="Ptyxiaki", mycollection="Powerfleet GPS"):
-        self.client = MongoClient(mongoclient)
-        self.database = self.client[client]
-        self.collection = self.database[mycollection]
-
-    def check_connection(self):
-        try:
-            self.client.server_info()  # Test connection
-            print("Connection to MongoDB is successful!")
-            return True
-        except errors.ServerSelectionTimeoutError as e:
-            print(f"Could not connect to MongoDB: {e}")
-            return False
-
-    def upsert_vehicle_data(self, vehicle_data_list):
-        """
-        Inserts or updates documents in the MongoDB collection based on `vehicleId`.
-
-        Parameters:
-            vehicle_data_list (list): List of dictionaries containing vehicle information.
-
-        Returns:
-            None
-        """
-        for vehicle_data in vehicle_data_list:
-            self.collection.update_one(
-                {"vehicleId": vehicle_data["vehicleId"]},  # Query to match `vehicleId`
-                {"$set": vehicle_data},                    # Fields to update or set
-                upsert=True                                # Insert if no match is found
-            )
-            print(f"Upserted document for vehicleId {vehicle_data['vehicleId']}.")
