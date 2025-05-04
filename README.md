@@ -1,3 +1,23 @@
-# Ptyxiaki-Repository
-## Tracking Notes via => https://www.notion.so/01feef6feca5462d8e21f1f7b65336fa3
-## Run localhost as: http://localhost:8083/toxy?zoom=8&lng=-74.0060&lat=40.7128
+# ΑΠΟΤΥΠΩΣΗ ΔΕΔΟΜΕΝΩΝ ΜΙΚΡΟ-ΜΕΤΑΚΙΝΗΣΕΩΝ ΣΕ ΔΥΝΑΜΙΚΟΥΣ ΧΑΡΤΕΣ
+
+Το έργο αυτό προσφέρει εργαλεία και βοηθητικά scripts για την ανάλυση και οπτικοποίηση δεδομένων μικρο-μετακινήσεων, αξιοποιώντας APIs της PowerFleet, γεωχωρικά δεδομένα και τεχνικές μηχανικής μάθησης.
+
+## Δυνατότητες
+
+- Ενσωμάτωση APIs μέσω του προσαρμοσμένου module `Powerfleet_APIs_Management`
+- Γεωχωρικοί υπολογισμοί με χρήση `geopandas`, `shapely`, `geopy` και `geojson`
+- Ομαδοποίηση και μηχανική μάθηση με `scikit-learn`
+- Ανάλυση και επεξεργασία δεδομένων με `pandas`, `numpy`, `scipy`, `statsmodels`
+- Οπτικοποίηση με `matplotlib`, `seaborn` και `plotly`
+- Εμπλουτισμένη έξοδος στην κονσόλα με `colorama`
+
+## Προαπαιτούμενα
+
+Απαιτείται Python έκδοση 3.8 ή νεότερη.
+
+### Εγκατάσταση
+
+Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με την εντολή:
+
+```bash
+pip install colorama geopy geojson geopandas haversine matplotlib numpy pandas plotly pymongo requests scipy seaborn shapely scikit-learn statsmodels
