@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3805822,
+          37.5142292
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3805822,
+          37.5142292
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3798199,
+          37.5145871
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3798199,
+          37.5145871
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.379784,
+          37.5146091
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.379784,
+          37.5146091
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3794866,
+          37.5148042
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3794866,
+          37.5148042
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3792588,
+          37.514999
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3792588,
+          37.514999
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3789687,
+          37.5153018
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3789687,
+          37.5153018
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3787194,
+          37.515562
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3787194,
+          37.515562
+        ]
+      },
+      "properties": {
+        "@id": "way/31532594",
+        "int_name": "\u0395rymanthoy",
+        "mynum": 14
+      }
+    }
+  ]
+}

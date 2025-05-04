@@ -1,0 +1,2045 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724211,
+          37.522419
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724211,
+          37.522419
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723776,
+          37.5227683
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723776,
+          37.5227683
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723394,
+          37.5230375
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723394,
+          37.5230375
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722839,
+          37.5233916
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722839,
+          37.5233916
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722665,
+          37.5235214
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722665,
+          37.5235214
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722491,
+          37.5236022
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722491,
+          37.5236022
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722236,
+          37.5236767
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722236,
+          37.5236767
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721914,
+          37.523766
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721914,
+          37.523766
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721786,
+          37.5238168
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721786,
+          37.5238168
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721686,
+          37.5238564
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721686,
+          37.5238564
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721579,
+          37.5239522
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721579,
+          37.5239522
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721579,
+          37.5240755
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721579,
+          37.5240755
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721726,
+          37.5242393
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721726,
+          37.5242393
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372174,
+          37.5243723
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372174,
+          37.5243723
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721538,
+          37.5244808
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721538,
+          37.5244808
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372127,
+          37.5246393
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372127,
+          37.5246393
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372115,
+          37.5247339
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372115,
+          37.5247339
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721404,
+          37.5249254
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721404,
+          37.5249254
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721793,
+          37.5252189
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3721793,
+          37.5252189
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722504,
+          37.5257433
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722504,
+          37.5257433
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722546,
+          37.5257708
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3722546,
+          37.5257708
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723148,
+          37.5261666
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723148,
+          37.5261666
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372347,
+          37.5264112
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372347,
+          37.5264112
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723993,
+          37.5267144
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3723993,
+          37.5267144
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724355,
+          37.5268962
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724355,
+          37.5268962
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724636,
+          37.5270201
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724636,
+          37.5270201
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724875,
+          37.5271006
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3724875,
+          37.5271006
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3725066,
+          37.5271589
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3725066,
+          37.5271589
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3725374,
+          37.5272525
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3725374,
+          37.5272525
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372588,
+          37.5273558
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372588,
+          37.5273558
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3726247,
+          37.5274382
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3726247,
+          37.5274382
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3726889,
+          37.5275408
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3726889,
+          37.5275408
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3727778,
+          37.5276891
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3727778,
+          37.5276891
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3728215,
+          37.5277844
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3728215,
+          37.5277844
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3728496,
+          37.5278703
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3728496,
+          37.5278703
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3728647,
+          37.5279338
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3728647,
+          37.5279338
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372875,
+          37.5280047
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.372875,
+          37.5280047
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729228,
+          37.5283584
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729228,
+          37.5283584
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729397,
+          37.5284765
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729397,
+          37.5284765
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729577,
+          37.5285555
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729577,
+          37.5285555
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729853,
+          37.5286341
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3729853,
+          37.5286341
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.373035,
+          37.5287394
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.373035,
+          37.5287394
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730671,
+          37.5288
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730671,
+          37.5288
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730886,
+          37.5288638
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730886,
+          37.5288638
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730993,
+          37.5289457
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730993,
+          37.5289457
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730899,
+          37.5290095
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730899,
+          37.5290095
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759522,
+          37.5291212
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759522,
+          37.5291212
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759313,
+          37.5291215
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759313,
+          37.5291215
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759768,
+          37.5291236
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3759768,
+          37.5291236
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730725,
+          37.5291255
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 99
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730725,
+          37.5291255
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.376003,
+          37.5291296
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.376003,
+          37.5291296
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.375656,
+          37.5291346
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.375656,
+          37.5291346
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760179,
+          37.5291365
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760179,
+          37.5291365
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760285,
+          37.5291444
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760285,
+          37.5291444
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3768651,
+          37.5291531
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3768651,
+          37.5291531
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760339,
+          37.5291532
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760339,
+          37.5291532
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3754122,
+          37.5291718
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 113
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3754122,
+          37.5291718
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760451,
+          37.5291901
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 115
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3760451,
+          37.5291901
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3751019,
+          37.5292191
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3751019,
+          37.5292191
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730671,
+          37.5292382
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730671,
+          37.5292382
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.374622,
+          37.5293155
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 121
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.374622,
+          37.5293155
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730874,
+          37.5293197
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 123
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3730874,
+          37.5293197
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3731489,
+          37.5293807
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3731489,
+          37.5293807
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3742385,
+          37.5293982
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3742385,
+          37.5293982
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3732683,
+          37.5294158
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3732683,
+          37.5294158
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3735137,
+          37.5294488
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 131
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3735137,
+          37.5294488
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 132
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3740071,
+          37.5294491
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3740071,
+          37.5294491
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 134
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3738246,
+          37.5294663
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 135
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3738246,
+          37.5294663
+        ]
+      },
+      "properties": {
+        "@id": "way/384981956",
+        "name": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ba\u03ac\u03ba\u03b7",
+        "myindex": 136
+      }
+    }
+  ]
+}
