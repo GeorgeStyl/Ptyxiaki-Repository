@@ -36,7 +36,7 @@ conda activate <όνομα_περιβάλλοντος>
 Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με τις εντολές:
 
 ```bash
-python -m venv myenv
+python -m venv C:\path\to\new\virtual\environment
 ```
 ```bash
 myenv/bin/activate
