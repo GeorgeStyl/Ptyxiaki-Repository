@@ -38,6 +38,7 @@ conda activate <όνομα_περιβάλλοντος>
 ```bash
 python -m venv myenv
 myenv/bin/activate
+pip install -r requirements.txt
 ```
 
 #### Σε Linux/macOS
@@ -46,6 +47,7 @@ myenv/bin/activate
 ```bash
 python -m venv myenv
 source myenv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## **Ρυθμίσεις Εκτέλεσης**
