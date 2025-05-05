@@ -37,7 +37,9 @@ conda activate <όνομα_περιβάλλοντος>
 
 ```bash
 python -m venv myenv
+```
 myenv/bin/activate
+```bash
 pip install -r requirements.txt
 ```
 
@@ -46,7 +48,11 @@ pip install -r requirements.txt
 
 ```bash
 python -m venv myenv
+```
+```bash
 source myenv/bin/activate
+```
+```bash
 pip install -r requirements.txt
 ```
 
