@@ -20,7 +20,7 @@
 Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με την εντολή:
 
 ```bash
-conda env create -f environment.yaml
+conda env create -f ArcGIS_env.yaml
 ```
 
 Στη συνέχεια, ενεργοποιήστε το περιβάλλον με:
