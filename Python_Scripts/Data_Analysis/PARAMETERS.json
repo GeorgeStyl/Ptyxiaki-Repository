@@ -14,7 +14,7 @@
         "headers": "Content-Type: 'application/json",
         "vehicleId": "20",
         "startDate": "2024-01-01 00:00:00",
-        "endDate": "2025-05-05 16:43:45",
+        "endDate": "2025-05-05 19:27:20",
         "http_method": "post",
         "url": "https://powerfleet.net/POWERFLEET5000/tr_rest/secure/vehicle/vehicle-gps-data"
     }
