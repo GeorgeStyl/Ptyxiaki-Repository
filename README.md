@@ -22,34 +22,21 @@
 Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με την εντολή:
 
 ```bash
-conda env create -f environment.yml --name ArcGIS_new
+conda env create -f environment.yml --name <όνομα_environment>
 ```
 
 Στη συνέχεια, ενεργοποιήστε το περιβάλλον με:
 ```bash
-conda activate <όνομα_περιβάλλοντος>
-```
-
-### Εγκατάσταση χωρίς Anaconda
-
-#### Σε Linux/macOS
-Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με τις εντολές:
-
-```bash
-python -m venv myenv
-```
-```bash
-source myenv/bin/activate
-```
-```bash
-pip install -r requirements.txt
+conda activate <όνομα_environment>
 ```
 
 ## **Ρυθμίσεις Εκτέλεσης**
 
 Στο δεύτερο κελί του αρχείου all_data_analysis.ipynb, υπάρχουν 2 μεταβλητές που ελέγχουν αν θα χρησιμοποιηθεί σύνδεση με βάση δεδομένων:
-`FETCH_FROM_DB = False`
-`UPDATE_DB     = False`
+```
+FETCH_FROM_DB = False
+UPDATE_DB     = False
+```
 
 Αυτό σημαίνει ότι ο κώδικας **θα εκτελεστεί χωρίς** σύνδεση με βάση δεδομένων.
 
