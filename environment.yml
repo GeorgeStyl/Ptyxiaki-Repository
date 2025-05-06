@@ -1,4 +1,4 @@
-name: ArcGIS
+name: ArcGIS2
 channels:
   - esri
   - defaults
@@ -299,7 +299,7 @@ dependencies:
       - tinycss2==1.4.0
       - tomli==2.2.1
       - tornado==6.4.2
-      - traitlets==5.9.0
+      - traitlets==5.14.3
       - types-python-dateutil==2.9.0.20241206
       - typing-extensions==4.12.2
       - tzdata==2024.2
