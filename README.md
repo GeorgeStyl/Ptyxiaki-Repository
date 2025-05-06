@@ -22,7 +22,7 @@
 Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με την εντολή:
 
 ```bash
-conda env create -f ArcGIS_env.yaml
+conda env create -f environment.yml --name ArcGIS_new
 ```
 
 Στη συνέχεια, ενεργοποιήστε το περιβάλλον με:
@@ -31,19 +31,6 @@ conda activate <όνομα_περιβάλλοντος>
 ```
 
 ### Εγκατάσταση χωρίς Anaconda
-
-#### Σε Windows
-Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με τις εντολές:
-
-```bash
-python -m venv C:\path\to\new\virtual\environment
-```
-```bash
-myenv/bin/activate
-```
-```bash
-pip install -r requirements.txt
-```
 
 #### Σε Linux/macOS
 Μπορείτε να εγκαταστήσετε όλα τα απαραίτητα πακέτα με τις εντολές:
